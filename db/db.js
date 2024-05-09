@@ -1,7 +1,7 @@
 // Import Sequelize and database connection
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(
-  process.env.DB_NAME || "ecom",
+  process.env.DB_NAME || "mlm",
   process.env.DB_USER_NAME || "admin",
   process.env.DB_PASSWORD || "admin@123",
   {

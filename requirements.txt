@@ -4,14 +4,14 @@ Task is to create a Multi-Level Marketing API using Node.js, following the provi
 
 Total Levels= 8
 Level 0
-Level 1
-Level 2
-Level 3
-Level 4
-Level 5
-Level 6
-Level 7
-Level 8
+Level 1  
+Level 2  20 
+Level 3  27 
+Level 4  28 
+Level 5  30 
+Level 6  30 
+Level 7  35 
+Level 8  40    
 
 If Level 8 User is Earning 1000 Rs, then 40% of 1000 Rs should be distributed among all above Users
 Parent of Level 8 i.e, Level 7 will get 20%
