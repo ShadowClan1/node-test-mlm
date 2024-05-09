@@ -168,8 +168,9 @@ async function findParentLevels(userId) {
   let result = [];
   console.log(userId, "this is userId");
   let user = await User.findOne({ where: { id: userId } });
-  while (user && user.parent_id) {
+  while (user) {
     result.unshift(user.id);
+    if(!user.parent_id) break;
     user = await User.findOne({ where: { id: user.parent_id } });
   }
   return result;
